@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crousel</title>
+    <link rel="stylesheet" href="./style_two.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <!-- <main>
+        <img src="./DSCF5394.JPG" class="slider" alt="">
+        <img src="./DSCF5395.JPG" class="slider" alt="">
+        <img src="./DSCF5397.JPG" class="slider" alt="">
+        <img src="./DSCF5400.JPG" class="slider" alt="">
+    </main>
+
+    <div class="nav">
+        <button onclick="goPrev()">prev</button>
+        <button onclick="goNext()">next</button>
+    </div> -->
+
+    <nav>
+        <div class="nav-bar">
+            <div class="part1">
+                <div>
+                    <img src="final logo.jpg" alt="" id="logo">
+                </div>
+                <div id="name">WORLD ACCORD MUN</div>
+            </div>
+            <div class="part2">
+                <a href="#home" class="">Home </a>
+
+                <a href="#aboutus" class="">About us</a>
+                <a href="#choose" class="">Why choose us?</a>
+
+                <a href="#contact" class="">Contact us</a>
+                <!-- <span>&#124;</span> <span>&#124;</span>  <span>&#124;</span>   -->
+
+            </div>
+        </div>
+    </nav>
+    <div class="container" id="home">
+        <div class="crousel">
+            <img src="./DSCF5394.JPG" class="slider" alt="">
+            <img src="./DSCF5395.JPG" class="slider" alt="">
+            <img src="./DSCF5397.JPG" class="slider" alt="">
+            <img src="./DSCF5400.JPG" class="slider" alt="">
+        </div>
+        <div class="btn">
+            <button class="dir-btnp" onclick="goPrev()"><span>&#8249;</span></button>
+            <button class="dir-btnn" onclick="goNext()"><span>&#8250;</span></button>
+
+        </div>
+    </div>
+
+
+    <section>
+        <div id="timer">
+            <div class="timer-heading">
+                <h5 id="endDate">Launching Soon: Countdown Initiated!</h5>
+
+            </div>
+            <div class="timer-card">
+                <div class="days">
+                    <input type="text" readonly value="00">
+                    <label for="days">Days</label>
+                </div>
+                <div class="hrs">
+                    <input type="text" readonly value="00">
+                    <label for="hrs">Hrs</label>
+                </div>
+                <div class="mins">
+                    <input type="text" readonly value="00">
+                    <label for="mins">Mins</label>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section>
+        <div class="rsvp-container">
+            <h1 class="rsvp-heading">Inviting you to the Most Awaited Conference of Dewas</h1>
+
+            <div class="rsvp-content">"Secure your spot at the inaugural World Accord Model United Nations! Don't miss
+                out on
+                this unforgettable event. RSVP now to participate in enriching discussions, diplomatic simulations, and
+                global networking opportunities. Join us in shaping a better world. Reserve your seat today!"</div>
+            <button class="span-rsvp" id="rsvp" onclick="redirectToWebsite()"></button>
+
+
+        </div>
+    </section>
+
+    <section>
+        <div class="aboutus" id="aboutus">
+            <div class="heading-aboutus">About us</div>
+            <div class="about-container">
+                <div class="about-content">
+                    World Accord MUN, established in January 2024, is a pioneering Model United Nations platform based
+                    in Indore. Rooted in a commitment to fostering global awareness and diplomatic skills, our brand
+                    envisions expanding its reach beyond Indore to include other major cities. As we embark on this
+                    journey, our goal is to create a dynamic and inclusive MUN experience that transcends geographical
+                    boundaries, connecting aspiring diplomats and leaders from diverse backgrounds. Stay tuned as we
+                    work towards making World Accord MUN a hallmark of excellence in Model United Nations conferences
+                    across the nation.</div>
+                <img class="about-image" src="./about us image.jpg">
+
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="card-container" id="choose">
+            <div class="heading">Why Choose Us?</div>
+            <div class="hero-card ">
+                <div class="content">
+                    <img class="icon" src="./yfd png.png">
+                    <p id="sup">Supported By</p>
+                    <p id="yfd">YOUTH FOR DIPLOMACY</p>
+                </div>
+
+            </div>
+            <div class="card-main">
+                <div class="row">
+                    <div class="card">
+                        <div class="card-in">
+                            <img class="icon" src="./innovation.jpg">
+                            <p>At World Accord Model United Nations, we bring a fresh perspective to the world of Model
+                                United Nations conferences. Nestled in the vibrant city of Dewas, we are proud to
+                                introduce ourselves as a dynamic new brand on the scene.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-in"> <img class="icon" src="./OIP.jpeg">
+                            <p>Our commitment to excellence is unwavering, evident in every aspect of our conference.
+                                From meticulously curated agendas to a distinguished executive board, we prioritize
+                                quality above all else. We understand that our delegates deserve nothing but the best,
+                                which is why we strive to elevate their experience to new heights.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="card">
+                        <div class="card-in"> <img class="icon" src="./diplomacy.webp">
+                            <p>What sets us apart is our unwavering dedication to the success of our delegates. Beyond
+                                just another MUN conference, we serve as a catalyst for personal and professional
+                                growth. Through immersive experiences in diplomacy, leadership development, and global
+                                awareness, we empower delegates to emerge as leaders in their own right.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-in"> <img class="icon" src="./international affairs.jpeg">
+                            <p>Our conference is not merely an event—it’s an opportunity to forge lasting alliances and
+                                gain invaluable insights into international affairs. By choosing World Accord Model
+                                United Nations, delegates embark on a transformative journey that transcends the
+                                ordinary. Join us, and discover why excellence is not just our goal—it’s our standard.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container" id="contact">
+            <div class="footer-heading">Join us to make a difference </div>
+            <div class="contact-info">
+                <div class="call">
+                    <i class="fa-solid fa-square-phone phone"></i>
+                    <p>+91 8349605527</p>
+                </div>
+                <div class="mail">
+                    <i class="fa-regular fa-envelope"></i>
+                    <p>worldaccordmun@gmail.com</p>
+                </div>
+                <div class="instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                    <p>world_accord_mun</p>
+                </div>
+                <div class="whatsapp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <p>+91 8989400701</p>
+                </div>
+                
+            </div>
+            <div class="divider"></div>
+            <p class="last">@worldAccordMUN</p>
+
+        </div>
+    </footer>
+</body>
+<script src="./script_two.js"></script>
+
+</html>
