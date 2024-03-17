@@ -13,5 +13,8 @@ HTML
 CSS
 JavaScript
 
+Responsive Design
+The website is designed to be responsive, ensuring optimal viewing and interaction experience across various devices and screen sizes.
+
 Usage
 Simply access the landing page URL to explore and interact with its features
